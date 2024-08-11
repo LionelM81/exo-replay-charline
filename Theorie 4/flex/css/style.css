@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    background-color: blue;
+    display: flex;
+    flex-direction: row; /* permet de gerer la direction de l'alignement */
+    flex-wrap: wrap; /* gère la compression des blocs : warp,*/
+    gap: 10px 20px; /*gère l'espacement entre les blocs*/
+
+    justify-content: space-between; /* Gère l'espacement entre les blocs*/
+
+    align-items: center;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.four {
+    background-color: tomato;
+    order: -1;
+}

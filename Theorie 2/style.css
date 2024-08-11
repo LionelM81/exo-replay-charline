@@ -1,0 +1,27 @@
+/* balise {
+propriété-css: valeur;
+}
+*/
+
+body {
+    background-color: tomato;
+}
+
+/* Sélectionner un élément via un class */
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+/*Sélectionner un élément via un class*/
+.blue {
+    color: blue;
+}
+
+.blanc {
+    color: #ffffff
+}
+
+.italic {
+    font-style: italic;
+    font-weight: 200;
+}
